@@ -1,0 +1,191 @@
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Práctica Tablas - Diseño Moderno</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+<style>
+
+ 
+  .main-title {
+    color: #2c3e50;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    padding: 15px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+ 
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+ 
+  th {
+    background: linear-gradient(135deg, #6b73ff 0%, #000dff 100%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+ 
+  td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+  }
+ 
+  tr:hover td {
+    background-color: rgba(255,255,255,0.7);
+  }
+ 
+  img {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+  }
+ 
+  img:hover {
+    transform: scale(1.05);
+  }
+ 
+  .america { background-color: #e3f2fd; color: #0d47a1; }
+  .europa { background-color: #f3e5f5; color: #6a1b9a; }
+  .asia { background-color: #fff8e1; color: #e65100; }
+  .africa { background-color: #e8f5e9; color: #1b5e20; }
+  .oceania { background-color: #e0f7fa; color: #006064; }
+  .antartida { background-color: #efebe9; color: #3e2723; }
+ 
+  ul, ol {
+    padding-left: 20px;
+  }
+ 
+  li {
+    margin-bottom: 8px;
+  }
+ 
+  hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #6b73ff, transparent);
+    margin: 30px 0;
+  }
+</style>
+</head>
+<body background="lima.jpg">
+
+<table>
+<tr>
+<th colspan="6" class="main-title">
+<h1>Continentes del Mundo</h1>
+</th>
+</tr>
+</table>
+
+<table>
+<thead>
+<tr>
+<th>América</th>
+<th>Europa</th>
+<th>Asia</th>
+<th>África</th>
+<th>Oceanía</th>
+<th>Antártida</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="america">
+<ol>
+<li>Canadá</li>
+<li>Belice</li>
+<li>Nicaragua</li>
+<li>Venezuela</li>
+<li>Chile</li>
+</ol>
+</td>
+
+<td class="europa">
+<ul>
+<li>Bulgaria</li>
+<li>Dinamarca</li>
+<li>Noruega</li>
+<li>Ucrania</li>
+<li>Irlanda</li>
+</ul>
+</td>
+
+<td class="asia">
+<ul style="list-style-type: upper-alpha;">
+<li>Filipinas</li>
+<li>Armenia</li>
+<li>Birmania</li>
+<li>Malasia</li>
+<li>Vietnam</li>
+</ul>
+</td>
+
+<td class="africa">
+<ul>
+<li>Ghana</li>
+<li>Angola</li>
+<li>Zimbabwe</li>
+<li>Uganda</li>
+<li>Kenia</li>
+</ul>
+</td>
+
+<td class="oceania">
+<ul style="list-style-type: upper-roman;">
+<li>Figi</li>
+<li>Nauru</li>
+<li>Tonga</li>
+<li>Nueva Zelanda</li>
+<li>Palacs</li>
+</ul>
+</td>
+
+<td class="antartida">
+<ul>
+<li>Antártida argentina (Argentina)</li>
+<li>Dependencia Rosas (Nueva Zelanda)</li>
+<li>Adela Land (Francia)</li>
+<li>Territorio Antártico Australiano (Australia)</li>
+<li>Irlanda Pedro | Tierra de la Reina Maud (Noruega)</li>
+<li>Antártida Chilena (Chile)</li>
+<li>Marja Byrd (sin pertenencia)</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td><img src="Ame.jpg"></td>
+<td><img src="euro.jpg"></td>
+<td><img src="asia.png"></td>
+<td><img src="africa.jpg"></td>
+<td><img src="11.jpg"></td>
+<td><img src="12.jpg"></td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+</body>
+</html>
